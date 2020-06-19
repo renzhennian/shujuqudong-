@@ -1,7 +1,11 @@
+import sys,os
+sys.path.append("C:\\Users\Administrator\PycharmProjects")
 import unittest
 from selenium import webdriver
 from ddt import ddt,data,unpack
 import time
+
+
 from shujuqudong_ddt.Excel_00 import Excel_data
 
 Path = "C:\\Users\\Administrator\\PycharmProjects\\shujuqudong_ddt\\123.xlsx"
